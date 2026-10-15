@@ -1,0 +1,4 @@
+site_name: Weather Alerts
+site_url: https://weather-alerts.readthedocs.io/
+nav:
+  - Home: index.md
