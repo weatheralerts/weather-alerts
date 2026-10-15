@@ -1,16 +1,14 @@
-# Weather Alerts: Thunderstorm and Lightning Alerts
+# Weather Alerts
 
-Weather Alerts sends notifications when thunderstorms and lightning threaten your location, so hikers, golfers, event organizers and outdoor workers can get to shelter in time.
+Weather Alerts is a weather notification app and website. Save the locations that matter to you, choose the conditions you care about, and get an alert when the forecast crosses your thresholds.
 
-## What it covers
-- Thunderstorm and lightning alerts for your saved locations
-- Severe weather warnings
-- Custom thresholds for other conditions such as wind, rain and temperature
-
-## Lightning safety basics
-- When thunder roars, go indoors.
-- Wait 30 minutes after the last thunder before going back outside.
-- Avoid open fields, hilltops, and tall isolated trees.
+## What you can get alerts for
+- Rain and snowfall
+- Wind and gusts
+- Heat and frost temperature thresholds
+- Thunderstorms, lightning and severe weather warnings
+- Air quality and smoke
+- UV index and aurora visibility
 
 ## Links
 - Website: https://www.alerts-weather.com/
