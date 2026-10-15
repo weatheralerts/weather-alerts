@@ -1,4 +1,20 @@
 site_name: Weather Alerts
+site_description: "Weather Alerts for Android: custom weather notifications with your own thresholds, official warnings, radar and route weather."
 site_url: https://weather-alerts.readthedocs.io/
 nav:
   - Home: index.md
+theme:
+  name: material
+  custom_dir: overrides
+  logo: https://www.alerts-weather.com/wp-content/uploads/2026/05/cropped-icon-192x192.png
+  favicon: https://www.alerts-weather.com/wp-content/uploads/2026/05/cropped-icon-192x192.png
+  font: false
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - md_in_html
