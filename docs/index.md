@@ -1,31 +1,51 @@
-# Weather Alerts: Weather That Checks In With You
+# Weather Alerts: a quick guide to the app
 
-Weather forecasts are everywhere, but a forecast only helps if you actually look at it at the right moment. Most of us check the weather in the morning, see a sun icon, and miss the thunderstorm that shows up in the afternoon update. [Weather Alerts](https://www.alerts-weather.com/) flips that around: instead of you checking the weather, the weather checks in with you, but only when it matters.
+This page summarises what Weather Alerts does, how its alerts are configured and what Premium adds. Weather Alerts is an Android app that compares the forecast for your saved places with rules you define.
 
-## Your rules, not a generic warning
+<p class="wa-cta"><a class="md-button md-button--primary" href="https://play.google.com/store/apps/details?id=weather.alerts">Get it on Google Play</a> <a class="md-button" href="https://www.alerts-weather.com/">Visit alerts-weather.com</a></p>
 
-Generic severe-weather warnings are useful, but they are written for a whole region and a "typical" person. Your life is not typical. A 40 km/h gust is nothing for a commuter in a car and a real problem for a drone pilot, a sailor or someone putting up a marquee. Weather Alerts lets you set your own thresholds for temperature, rain, snow, wind and gusts, UV, humidity, pressure, visibility, cloud cover and air quality (AQI and PM2.5). When the forecast crosses your number, you get a notification.
+## Concepts
 
-## Every place that matters, in one app
+- Location: a saved place, added by GPS or search; each has its own rules
+- Rule: a weather type plus a condition and a threshold
+- Lead time: immediate, or up to seven days before the forecast event
+- Official warning: a message from a supported national weather service, shown with attribution
 
-You can save several locations by GPS or search: your home, your office, your parents' town, the holiday cottage or the football pitch where your kids train on Saturdays. Each location gets its own set of alerts, so you are not flooded with notifications about places you don't care about.
+## Creating a rule
 
-## Early enough to act
+- Open a saved location and add a new alert
+- Select the weather type, e.g. wind gusts
+- Choose the condition (above, below, starts, stops) and enter the threshold
+- Choose the lead time and save; edit, pause or delete it later
 
-An alert is only useful if it gives you time to do something. Weather Alerts can notify you as soon as the forecast changes, or up to 7 days in advance, so you can move a training session, cover your plants, reschedule a delivery or pack the right clothes for a trip.
+## Supported rule types
 
-## More than thresholds
+- Rain and snow (start, stop, intensity; sleet, freezing rain, drizzle)
+- Temperature (cold, heat, freezing, heat index, spikes)
+- Wind speed, gusts and air pressure
+- UV index, humidity, visibility, cloud cover
+- Air quality: AQI and PM2.5
+- Weather description: lightning, hail, thunderstorms, fog
+- Weather fronts and geomagnetic storms (Kp index)
 
-- Official warnings from national weather services, where available for your region.
-- Thunderstorm, lightning, hail and fog alerts.
-- Rain, snow, sleet and freezing rain.
-- Heat, cold, frost and heat index.
-- Atmospheric fronts and geomagnetic storm alerts by Kp index for aurora watchers.
-- Weather along a route for drives and trips.
-- Radar and maps, home-screen widgets, custom sounds and Quiet Hours.
+## Other features
 
-Forecast data comes from Apple WeatherKit. The app is free to start, and Premium comes with a 7-day free trial.
+- Hourly and daily forecasts
+- Live radar, storm radar, lightning and hurricane trackers, front and air quality maps
+- Live location weather and route weather
+- Widgets, custom sounds, Quiet Hours and Active Hours
 
-## Try it
+## Premium
 
-Read more at [alerts-weather.com](https://www.alerts-weather.com/) or install [Weather Alerts from Google Play](https://play.google.com/store/apps/details?id=weather.alerts) (Android).
+- Push notifications for custom alerts
+- More alerts and locations
+- Extended forecasts and no ads
+- 7-day free trial, billed by Google, cancellable in Play Store settings
+
+Notifications are evaluated per location, so the same rule type can exist with different thresholds in several places. Official warnings are delivered next to custom alerts; their coverage depends on which national services are supported in your region.
+
+Quiet Hours and Active Hours decide when routine notifications are delivered, while critical warnings are still allowed through at any time.
+
+Data source: Apple Weather (WeatherKit), which combines information from national and international meteorological services.
+
+<p class="wa-cta"><a class="md-button md-button--primary" href="https://play.google.com/store/apps/details?id=weather.alerts">Get it on Google Play</a> <a class="md-button" href="https://www.alerts-weather.com/">Visit alerts-weather.com</a></p>
